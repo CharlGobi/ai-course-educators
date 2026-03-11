@@ -1,0 +1,105 @@
+## AI's biggest weakness
+
+Let us talk about the most important thing to understand about AI tools: **they can be wrong, and they can be wrong with complete confidence**.
+
+This is called a **hallucination**.
+
+Hallucination happens when an AI generates content that sounds plausible, authoritative, and well-written — but is factually incorrect. The AI is not "lying." It is doing what it always does: generating the most likely-sounding response based on patterns it has learned. Sometimes that pattern leads to an accurate response. Sometimes it leads to something that sounds right but is not.
+
+---
+
+## Why AI hallucinates
+
+AI language models like Gemini generate text by predicting what word should come next, based on what they have learned from billions of documents. They do not have a separate "fact-checking" system that verifies each claim before outputting it.
+
+This means that:
+
+- If a topic is well-represented in the training data, AI is generally reliable
+- If a topic is obscure, recent, or highly specific, AI may "fill in the gaps" with plausible-sounding but invented content
+- If you ask for specific statistics, dates, names, or quotes, AI may generate figures that sound real but are not
+
+---
+
+## Where hallucination is most dangerous for South African teachers
+
+**South African-specific facts:**
+DBE statistics, school numbers, specific CAPS requirements, recent education policy changes. Gemini's training data is heavily weighted toward international sources. SA-specific information is less represented and more prone to error.
+
+**Statistics and numbers:**
+"What percentage of South African learners pass matric?" — always verify from the DBE's own reports.
+
+**Quotes and citations:**
+Never use an AI-generated quote or citation without independently verifying it. AI invents plausible-sounding quotes and references that do not exist.
+
+**Recent events:**
+AI has a knowledge cutoff date. Anything that happened recently may not be in its training data.
+
+<SAExample title="A real hallucination example">
+A teacher asked Gemini: "What is the matric pass rate in South Africa for 2023?"
+
+Gemini confidently provided a specific percentage. When the teacher checked the official DBE Annual National Report, the number was different.
+
+The lesson: For any statistic you plan to share with learners or parents, **always verify from the official source** — the DBE website, Stats SA, or your school's SGB reports.
+</SAExample>
+
+---
+
+## The verify-before-use rule
+
+Before using any AI-generated content that contains facts, statistics, dates, or specific claims:
+
+1. **Flag the claims** — identify any specific facts that could be verified
+2. **Check the source** — use the DBE website, Google Scholar, or your own curriculum documents
+3. **Trust your knowledge** — if something sounds wrong to you as a professional, investigate it
+
+This does not mean you need to fact-check every word AI generates. A lesson plan structure or a parent newsletter draft does not need fact-checking. But any content that makes factual claims about the world, South Africa, or your subject matter does.
+
+<Quiz
+  title="Hallucination check"
+  questions={[
+    {
+      question: "A teacher asks Gemini to write a paragraph about Nelson Mandela's presidency and shares it with learners without checking it first. What is the main risk?",
+      options: [
+        "The paragraph might be too long",
+        "Gemini might have included incorrect dates, events, or quotes that sound accurate",
+        "Learners might not find it interesting",
+        "The paragraph will definitely be wrong"
+      ],
+      correct: 1,
+      explanation: "AI can generate convincing-sounding but factually incorrect historical content — especially for specific dates, events, and attributed quotes. Always verify factual claims before sharing with learners."
+    },
+    {
+      question: "Which of these AI outputs requires the LEAST fact-checking before use?",
+      options: [
+        "A paragraph claiming South Africa has a specific number of public schools",
+        "A lesson plan structure for a 60-minute lesson",
+        "A quote attributed to a historical figure",
+        "Statistics about literacy rates in South Africa"
+      ],
+      correct: 1,
+      explanation: "A lesson plan structure (timing, activity types, headings) does not make factual claims about the world and requires less fact-checking. The other options all contain specific factual claims that should be verified."
+    },
+    {
+      question: "What should you do before using an AI-generated statistic in a parent newsletter?",
+      options: [
+        "Use it as long as it sounds reasonable",
+        "Check it against an official source like the DBE website",
+        "Ask AI again to confirm the same statistic",
+        "Add a disclaimer that the statistic is approximate"
+      ],
+      correct: 1,
+      explanation: "Asking AI to confirm a statistic it already gave you will just produce the same (possibly incorrect) answer again. The only way to verify a factual claim is to check it against an authoritative, independent source."
+    }
+  ]}
+/>
+
+<TryItNow title="Test AI's accuracy">
+Ask Gemini one question you already know the correct answer to — something specific from your subject area or from South African history.
+
+For example:
+- "In what year did South Africa achieve democracy?"
+- "What is the capital city of Limpopo?"
+- "Who wrote [a book your learners study]?"
+
+Was Gemini correct? Now ask it one question where you are less certain of the answer. How would you verify that response?
+</TryItNow>

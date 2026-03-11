@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ai",
+    "term": "Artificial Intelligence (AI)",
+    "definition": "Software that can learn from data and perform tasks that normally require human intelligence — like writing, recognising patterns, or making decisions.",
+    "whyItMatters": "AI tools like Gemini can help you write lesson plans, create activities, and save time on routine tasks.",
+    "example": "When your phone autocompletes a word you are typing, that is a simple form of AI."
+  },
+  {
+    "id": "generative-ai",
+    "term": "Generative AI (GenAI)",
+    "definition": "A type of AI that creates new content — text, images, audio, or video — based on your request.",
+    "whyItMatters": "This is what makes Gemini and NotebookLM useful for teachers. They generate new lesson plans, activities, and communication that did not exist before.",
+    "example": "When you ask Gemini to write a newsletter and it creates one from scratch, that is generative AI."
+  },
+  {
+    "id": "llm",
+    "term": "Large Language Model (LLM)",
+    "definition": "The type of AI model that powers tools like Gemini and ChatGPT. It has been trained on enormous amounts of text and learned to predict and generate language.",
+    "whyItMatters": "Understanding that AI tools are 'language models' helps you understand why they are so good at writing and explaining — and why they can sometimes get facts wrong.",
+    "example": "Gemini is built on a large language model trained on billions of documents."
+  },
+  {
+    "id": "prompt",
+    "term": "Prompt",
+    "definition": "The message or instruction you type to an AI tool. The quality of your prompt directly affects the quality of the AI's response.",
+    "whyItMatters": "Learning to write effective prompts is the most valuable skill you can develop for using AI. Module 2 of this course teaches the PARTS framework for great prompts.",
+    "example": "\"Create a 10-question quiz on ecosystems for Grade 7 Natural Sciences learners\" is a prompt."
+  },
+  {
+    "id": "output",
+    "term": "Output",
+    "definition": "The content that an AI tool generates in response to your prompt.",
+    "whyItMatters": "AI output is always a starting point, not a final product. You should always review and personalise AI output before using it in class.",
+    "example": "The lesson plan that Gemini writes after you ask for one is the output."
+  },
+  {
+    "id": "hallucination",
+    "term": "Hallucination",
+    "definition": "When an AI tool generates content that sounds convincing but is factually incorrect or completely made up.",
+    "whyItMatters": "This is the most important limitation to understand. AI can state incorrect statistics, invent quotes, or describe events that never happened — with complete confidence. Always fact-check AI-generated content.",
+    "example": "If you ask Gemini how many schools are in South Africa and it gives you a precise number, you should verify that number from the DBE website."
+  },
+  {
+    "id": "bias",
+    "term": "Bias",
+    "definition": "When AI output reflects unfair assumptions or stereotypes, usually because the data it was trained on contained those biases.",
+    "whyItMatters": "AI may default to stereotypical examples (e.g., always showing male scientists or Western families). As a South African educator, you need to critically review AI output for cultural and demographic bias.",
+    "example": "If you ask AI to generate a story about a 'typical South African family' and it describes a suburban nuclear family, that is a bias that does not reflect SA's full diversity."
+  },
+  {
+    "id": "parts",
+    "term": "PARTS Framework",
+    "definition": "A five-part structure for writing effective AI prompts: Persona, Aim, Recipients, Theme, Structure.",
+    "whyItMatters": "Using PARTS helps you give AI all the context it needs to produce useful, relevant output. It is the core skill taught in Module 2 of this course.",
+    "example": "A PARTS prompt for a teacher: 'I am a Grade 8 English teacher (Persona). Write a comprehension exercise (Aim) for Grade 8 learners whose home language is isiXhosa (Recipients) based on the theme of identity (Theme), formatted as five short-answer questions (Structure).'"
+  },
+  {
+    "id": "chain-of-thought",
+    "term": "Chain-of-Thought (CoT) Prompting",
+    "definition": "A prompting technique where you ask AI to think through a problem step by step before giving you an answer. This improves accuracy for complex tasks.",
+    "whyItMatters": "For complex tasks like solving a maths problem or making a logical argument, adding 'Think through this step by step' can significantly improve AI's accuracy.",
+    "example": "\"Solve this equation step by step and show all your working: 3x + 7 = 22.\""
+  },
+  {
+    "id": "zero-shot",
+    "term": "Zero-Shot Prompting",
+    "definition": "Asking AI to complete a task without giving it any examples. Best for straightforward tasks where the request is clear.",
+    "whyItMatters": "Most day-to-day teacher prompts are zero-shot. You describe what you want and AI delivers it.",
+    "example": "\"Write a parent newsletter about the upcoming school sports day.\""
+  },
+  {
+    "id": "one-shot",
+    "term": "One-Shot Prompting",
+    "definition": "Giving AI one example of what you want before asking it to create something similar.",
+    "whyItMatters": "When you want AI to match a specific style or format you already have, showing it one example helps it understand exactly what you need.",
+    "example": "\"Here is an example of the way I write my newsletters: [paste example]. Now write a similar one for the end of Term 3.\""
+  },
+  {
+    "id": "few-shot",
+    "term": "Few-Shot Prompting",
+    "definition": "Giving AI two or more examples before asking it to complete a task. This improves output quality for complex or style-specific requests.",
+    "whyItMatters": "For tasks where tone, format, and style really matter (like writing in a specific voice), providing multiple examples helps AI match what you need.",
+    "example": "Giving AI three examples of your school's style of parent letters before asking it to draft a new one."
+  },
+  {
+    "id": "machine-learning",
+    "term": "Machine Learning (ML)",
+    "definition": "A way of training AI by exposing it to large amounts of data and letting it learn patterns, rather than giving it explicit rules.",
+    "whyItMatters": "Understanding that AI 'learned' from data (and therefore reflects the patterns in that data, including biases) helps you understand both its capabilities and its limitations.",
+    "example": "A spam filter that gets better at identifying spam over time as it sees more examples is using machine learning."
+  },
+  {
+    "id": "natural-language",
+    "term": "Natural Language Processing (NLP)",
+    "definition": "The ability of AI to understand and generate human language — including the way people actually speak and write, not just formal commands.",
+    "whyItMatters": "Because of NLP, you can talk to Gemini the way you would talk to a colleague. You do not need to learn special commands or technical language.",
+    "example": "Being able to type 'Can you make this simpler for a Grade 4 learner?' and having Gemini understand what you mean is possible because of NLP."
+  },
+  {
+    "id": "notebooklm",
+    "term": "NotebookLM",
+    "definition": "Google's AI tool that works only with documents you upload. It answers questions, generates summaries, and creates study materials using only your chosen sources.",
+    "whyItMatters": "For South African teachers, NotebookLM is invaluable for working with CAPS documents, textbooks, and past papers — because it stays grounded in your materials, not the general internet.",
+    "example": "Uploading your Grade 11 Chemistry CAPS document and asking NotebookLM to generate practice questions for Term 2."
+  },
+  {
+    "id": "gemini",
+    "term": "Gemini",
+    "definition": "Google's general-purpose AI assistant, available free at gemini.google.com. It can write, brainstorm, explain, summarise, and create content on request.",
+    "whyItMatters": "Gemini is the primary tool you will use in this course for lesson planning, activity creation, assessments, and parent communication.",
+    "example": "Asking Gemini to draft a CAPS-aligned lesson plan for Grade 9 Mathematics on linear equations."
+  },
+  {
+    "id": "popia",
+    "term": "POPIA",
+    "definition": "The Protection of Personal Information Act — South Africa's data protection law. It governs how personal information about learners and staff may be collected, stored, and used.",
+    "whyItMatters": "When using AI tools, you must comply with POPIA by never entering learner personal information (names, ID numbers, medical details) into AI tools without appropriate consent and safeguards.",
+    "example": "Instead of typing 'Sipho Dlamini, Grade 9B, has ADHD' into Gemini, type 'a Grade 9 learner with ADHD in a large South African school.'"
+  },
+  {
+    "id": "caps",
+    "term": "CAPS",
+    "definition": "Curriculum and Assessment Policy Statement — the national curriculum document that specifies what must be taught and assessed in South African schools.",
+    "whyItMatters": "When using AI to create lesson plans and assessments, always check that AI output is aligned with your CAPS requirements. AI may not always get CAPS-specific details correct.",
+    "example": "Asking Gemini to 'create a CAPS-aligned lesson plan' gives a good starting structure, but you should verify against your actual CAPS document."
+  },
+  {
+    "id": "differentiation",
+    "term": "Differentiation",
+    "definition": "Adapting teaching content, methods, or assessments to meet the diverse learning needs of different learners in the same class.",
+    "whyItMatters": "AI is exceptionally good at helping you differentiate — it can instantly rewrite a text at different reading levels, create extension activities, or produce scaffolded versions of the same task.",
+    "example": "Asking Gemini to rewrite a history passage at three different reading levels: Grade 6, Grade 8, and Grade 10."
+  },
+  {
+    "id": "academic-integrity",
+    "term": "Academic Integrity",
+    "definition": "The principle that learners' work should represent their own honest effort and thinking, with appropriate acknowledgement of any assistance they received.",
+    "whyItMatters": "AI creates new challenges for academic integrity in schools. Teachers need clear policies on when and how learners may use AI, and how to design tasks that cannot simply be completed by AI alone.",
+    "example": "An assignment that asks learners to reflect on how their own family experience connects to a historical event is harder for AI to complete than a generic essay question."
+  },
+  {
+    "id": "algorithm",
+    "term": "Algorithm",
+    "definition": "A set of step-by-step instructions that a computer follows to solve a problem or complete a task.",
+    "whyItMatters": "AI tools follow complex algorithms to generate responses. Understanding this helps you see AI as a system following rules — not a human making judgements.",
+    "example": "The recipe for a cake is an algorithm: a specific set of steps that produce a specific result."
+  },
+  {
+    "id": "multimodal",
+    "term": "Multimodal",
+    "definition": "An AI that can work with multiple types of content — text, images, audio, and video — not just words.",
+    "whyItMatters": "Gemini is multimodal, which means you can take a photo of a handout or a learner's work and ask Gemini to analyse it, summarise it, or give you feedback on it.",
+    "example": "Taking a photo of a completed maths worksheet and asking Gemini to identify common errors across the class."
+  },
+  {
+    "id": "source-grounding",
+    "term": "Source Grounding",
+    "definition": "When an AI's responses are tied to specific documents you have provided, rather than general internet knowledge. This reduces hallucination.",
+    "whyItMatters": "NotebookLM uses source grounding — it only answers from your uploaded documents. This makes it more reliable for curriculum-specific work.",
+    "example": "When NotebookLM answers a question and shows you exactly which paragraph in your uploaded document it is drawing from."
+  },
+  {
+    "id": "sace",
+    "term": "SACE",
+    "definition": "South African Council of Educators — the statutory body that registers educators and upholds professional standards in South African education.",
+    "whyItMatters": "As a SACE-registered professional, you are responsible for the quality and integrity of all content you use in your classroom — whether AI-generated or not.",
+    "example": "SACE's professional code of ethics applies to how you use AI in your teaching practice."
+  }
+]

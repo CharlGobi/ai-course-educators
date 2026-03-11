@@ -1,0 +1,67 @@
+## Who are you asking?
+
+The **P** in PARTS stands for **Persona** — the role you want AI to take, and the context you bring as the teacher asking.
+
+Telling Gemini who you are and who you want it to "be" transforms the quality of what it generates. A prompt from "a teacher" produces generic results. A prompt from "an experienced Grade 11 Afrikaans teacher at a rural school in the Eastern Cape whose learners speak IsiXhosa as their home language" produces something far more specific and useful.
+
+---
+
+## How to write a Persona
+
+Your Persona has two parts:
+
+**1. Who you are:**
+Describe your role with relevant context. Grade level, subject, school type, and any specific circumstances that affect what you need.
+
+*Examples:*
+- "I am a Foundation Phase teacher at a no-fee public primary school in Limpopo."
+- "I am a Head of Department for Mathematics at a high school in Johannesburg."
+- "I am a Grade 4 class teacher with 42 learners in my class."
+
+**2. Who you want AI to act as (optional but powerful):**
+You can ask Gemini to adopt a specific role or voice in its response.
+
+*Examples:*
+- "Act as an experienced curriculum planner who understands the South African CAPS system."
+- "Respond as a friendly, encouraging tutor who explains things simply."
+- "Write in the voice of a strict but fair examiner."
+
+---
+
+## Why Persona matters
+
+Without a Persona, Gemini assumes a generic audience — usually an international, English-speaking teacher with no specific context. For South African educators, this often produces output that:
+
+- Uses American or British curriculum references
+- Includes examples that are irrelevant to SA learners
+- Defaults to "students" instead of "learners"
+- Does not reference CAPS, DBE, or local context
+
+With a strong Persona, you anchor Gemini to your reality.
+
+<SAExample title="Persona in action">
+**Without Persona:**
+"Create a lesson plan on ecosystems."
+
+*AI produces:* A generic 50-minute lesson plan using US-style curriculum language, with examples from temperate forests and American national parks.
+
+**With Persona:**
+"I am a Grade 7 Natural Sciences teacher at a public school in the Northern Cape. My learners are 12-13 years old and mostly speak Afrikaans and Tswana at home."
+
+*AI produces:* A lesson plan with examples from Karoo ecosystems, terminology in accessible English, and activities suitable for multilingual South African learners.
+</SAExample>
+
+<PromptBox
+  builder={true}
+  persona="I am a Grade [X] [SUBJECT] teacher at a [public/private] school in [PROVINCE/CITY]. My learners are [AGE RANGE] years old and [DESCRIBE RELEVANT CONTEXT: home language, class size, ability range, etc.]."
+  title="Practice: Fill in your Persona"
+/>
+
+<TryItNow title="Build your personal Persona">
+Write a Persona statement that you will use for most of your AI prompts going forward. Include:
+- Your grade(s) and subject(s)
+- Your school context (public/private, urban/rural, province)
+- Your learners' most important characteristics (home language, class size, ability range)
+
+Save it somewhere accessible — you will use this as the opening of many prompts.
+</TryItNow>

@@ -1,0 +1,94 @@
+## The magic of a good analogy
+
+Every teacher knows the feeling: you have explained something three times, and half the class still looks puzzled. Then you reach for a different explanation — one that connects the idea to something familiar — and suddenly faces light up.
+
+That moment is an analogy working perfectly.
+
+Good analogies are one of the hardest things to create on demand. AI can generate dozens in seconds — and it can make them South African.
+
+---
+
+## Why analogies matter so much
+
+Abstract concepts become concrete when anchored to familiar experiences. For South African learners, the most powerful analogies draw on:
+
+- Daily life experiences (taxis, markets, load shedding, sport)
+- Local geography (townships, farms, mountains, rivers)
+- South African history and culture
+- Foods, customs, and family structures learners know well
+
+The challenge is that most AI-generated content defaults to American or European examples unless you explicitly redirect it.
+
+---
+
+## The analogy prompt
+
+<PromptBox example="You are a Grade 9 Physical Sciences teacher in South Africa. Explain the concept of electrical resistance using an analogy that will resonate with South African township learners. Do not use water pipe analogies (they have heard these). Instead, use something from everyday South African township life — taxis, markets, queues, sport, or cooking. Explain the analogy fully, then connect it back to the science concept using correct terminology. Make it vivid and memorable." />
+
+<TryItNow>
+Choose a concept your class has been struggling to grasp. Ask Gemini:
+
+*"Explain [concept] using an analogy that will resonate with South African learners in Grade [X]. Avoid textbook examples. Use something from daily South African life — sport, transport, food, load shedding, or family."*
+
+Read through the analogy and check: would my learners recognise this world? If not, adjust the context and try again.
+</TryItNow>
+
+---
+
+## Storytelling as explanation
+
+Stories engage learners in ways that bullet-point explanations cannot. AI can write short explanatory stories — mini narratives that carry a concept through a character's experience.
+
+<PromptBox example="You are a Grade 7 Social Sciences teacher. Write a short story (300–400 words) about a fictional South African character — a 12-year-old girl named Ayasha who lives in Langa, Cape Town — that explains the economic concept of supply and demand. The story should unfold through Ayasha's experience at a market. At the end of the story, add three comprehension questions that connect the story events to the formal economics concepts. Use age-appropriate language for Grade 7." />
+
+---
+
+## Multiple explanations for one concept
+
+When one explanation does not land, you need another. Ask AI for variety.
+
+<PromptBox example="Explain the concept of photosynthesis in three different ways: (1) using a very simple analogy for Grade 6 learners who struggle with reading, (2) using a step-by-step process explanation for Grade 7 learners at grade level, and (3) using a detailed technical explanation with correct scientific terminology for a Grade 9 class. All three explanations should be relevant to South African plants or crops." />
+
+---
+
+## Subject-specific analogy ideas
+
+| Subject | Ask AI to connect to... |
+|---|---|
+| Mathematics (fractions) | Sharing a pap portion among family members |
+| Life Sciences (cells) | A small South African RDP house with different rooms |
+| Geography (erosion) | A dusty sports field during a dry Highveld summer |
+| History (colonisation) | Comparable power dynamics learners experience today |
+| English (sentence structure) | The structure of a praise song (izibongo) |
+| Physics (waves) | Sound from a vuvuzela travelling across a stadium |
+
+---
+
+## Checking your analogies
+
+Not every AI analogy will be culturally accurate or contextually appropriate. Before using an analogy in class, ask:
+
+<Checklist items={[
+  "Would my learners recognise the thing being compared to?",
+  "Is the comparison culturally respectful and not stereotyping?",
+  "Does the analogy actually illuminate the concept, or does it confuse it?",
+  "Would this analogy work across the different home-language backgrounds in my class?",
+  "Have I verified that the science or factual content in the analogy is correct?"
+]} />
+
+<SAExample title="The taxi analogy that worked">
+Ms Naidoo was teaching Grade 11 Economics — specifically, the concept of price floors and ceilings. Textbook examples used rent control in New York City. Her learners had no frame of reference.
+
+She asked Gemini: *"Explain price floors using a taxi fare example relevant to South African taxis."*
+
+The analogy that came back used government-set minimum taxi fares — something every learner in the room had experience with. The concept clicked in a way it never had with the textbook example. "I wish I had thought of that myself three years ago," she said.
+</SAExample>
+
+<PromptBox
+  builder={true}
+  persona="You are an experienced South African teacher who explains complex concepts using local, culturally relevant analogies"
+  aim="Create an analogy that explains [concept] to Grade [X] learners"
+  recipients="South African learners in Grade [X], whose home language may not be English"
+  theme="The analogy must draw on everyday South African life — township, rural, or urban — avoiding Western or American references"
+  structure="Provide: (1) the analogy itself in plain language, (2) how the analogy maps to the formal concept, (3) one question to check understanding"
+/>

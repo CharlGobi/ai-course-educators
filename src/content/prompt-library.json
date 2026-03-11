@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lesson-plan-scratch",
+    "title": "Create a lesson plan from scratch",
+    "category": "Lesson Planning",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Generate a full CAPS-aligned lesson plan for any subject and grade.",
+    "prompt": "I am a [SUBJECT] teacher at a [PRIMARY/HIGH] school in South Africa. Create a [DURATION]-minute CAPS-aligned lesson plan for [GRADE] on the topic of [TOPIC]. The class has approximately [NUMBER] learners with [DESCRIBE ABILITY RANGE]. Include: learning objectives (2-3), an introduction/hook activity ([X] minutes), main lesson content ([X] minutes), a learner activity ([X] minutes), and a closing/assessment activity ([X] minutes). Format as a structured lesson plan."
+  },
+  {
+    "id": "lesson-plan-enhance",
+    "title": "Improve an existing lesson plan",
+    "category": "Lesson Planning",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Give AI your existing lesson plan and ask it to make it more engaging or differentiated.",
+    "prompt": "I am a [SUBJECT] teacher for [GRADE]. Here is my existing lesson plan: [PASTE YOUR LESSON PLAN]. Please improve this lesson plan by: (1) adding a more engaging opening activity that connects to learners' daily lives in South Africa, (2) including one differentiation strategy for learners who struggle and one extension activity for fast finishers, and (3) suggesting a quick formative assessment to close the lesson."
+  },
+  {
+    "id": "rubric-assessment",
+    "title": "Create an assessment rubric",
+    "category": "Assessment",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Generate a CAPS-aligned rubric for any assessment task.",
+    "prompt": "I am a [SUBJECT] teacher. Create a marking rubric for a [TYPE OF ASSESSMENT: essay/oral/project/practical] for [GRADE] on the topic of [TOPIC]. The rubric should align with CAPS assessment standards and include four levels of achievement: Outstanding (80-100%), Adequate (50-79%), Elementary (30-49%), Not Achieved (0-29%). Include clear descriptors for each level and a space for a total mark out of [TOTAL MARKS]."
+  },
+  {
+    "id": "quiz-questions",
+    "title": "Generate quiz or test questions",
+    "category": "Assessment",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Create a set of questions for formative or summative assessment.",
+    "prompt": "I am a [GRADE] [SUBJECT] teacher. Create [NUMBER] [TYPE: multiple choice/short answer/true-false/matching] questions on the topic of [TOPIC] for [GRADE] learners. Each question should assess [COGNITIVE LEVEL: knowledge/comprehension/application/analysis]. For multiple choice: include four options and mark the correct answer. Include a brief marking guideline. The difficulty should be appropriate for [DESCRIBE LEARNER LEVEL]."
+  },
+  {
+    "id": "exit-ticket",
+    "title": "Create an exit ticket",
+    "category": "Assessment",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Quick end-of-lesson check on learner understanding.",
+    "prompt": "I am a [SUBJECT] teacher for [GRADE]. Create a 3-question exit ticket for a lesson on [TOPIC]. The questions should check whether learners understood [KEY CONCEPT 1], [KEY CONCEPT 2], and [KEY CONCEPT 3]. Make it quick to complete (under 5 minutes) and easy to mark. Include an answer key."
+  },
+  {
+    "id": "parent-newsletter",
+    "title": "Write a class newsletter for parents",
+    "category": "Communication",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Draft a term newsletter or update for parents and guardians.",
+    "prompt": "I am a [GRADE] class teacher at [TYPE OF SCHOOL] in South Africa. Write a friendly, professional newsletter for parents/guardians about [TERM/PERIOD]. Include: what we have been learning this term in [SUBJECT/SUBJECTS], upcoming events (including [EVENTS]), a reminder about [IMPORTANT REMINDER], and an encouragement to parents to [PARENT ACTION]. Keep it warm, clear, and no longer than 250 words. Write in plain South African English."
+  },
+  {
+    "id": "parent-letter",
+    "title": "Write a letter to parents about an event",
+    "category": "Communication",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Draft a formal or informal letter about an upcoming event or issue.",
+    "prompt": "I am a teacher at a South African public school. Write a [FORMAL/FRIENDLY] letter to parents and guardians about [TOPIC/EVENT]. Key details to include: [DATE, TIME, LOCATION, WHAT TO BRING, COST IF ANY]. The letter should be appropriate for parents with a range of literacy levels — clear, concise, and friendly. End with a contact method for queries. Format it as a proper letter with a subject line."
+  },
+  {
+    "id": "report-comments",
+    "title": "Generate report card comments",
+    "category": "Communication",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Draft personalised report comments for different learner types.",
+    "prompt": "I am a [SUBJECT] teacher. Write three versions of a report card comment for [GRADE] learners, each for a different type of learner: (1) a high-achieving learner who could be challenged more, (2) a learner performing at an adequate level who needs to build confidence, and (3) a learner who is struggling and needs encouragement and specific next steps. Each comment should be 2-3 sentences, professional in tone, and focused on growth. Do not include any names."
+  },
+  {
+    "id": "simplify-text",
+    "title": "Simplify a text for struggling readers",
+    "category": "Differentiation",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Make a passage accessible for learners reading below grade level.",
+    "prompt": "I am a [SUBJECT] teacher for [GRADE]. Here is a passage from our textbook: [PASTE TEXT]. Please rewrite this passage for a learner who is reading at approximately [LOWER GRADE] level. Use shorter sentences, simpler vocabulary, and define any technical terms in brackets after they first appear. Keep all the key factual content but make it accessible. The learner's home language is [HOME LANGUAGE] and English is their first additional language."
+  },
+  {
+    "id": "extension-activity",
+    "title": "Create an extension activity for fast finishers",
+    "category": "Differentiation",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Keep advanced learners challenged when they finish early.",
+    "prompt": "I am a [SUBJECT] teacher for [GRADE]. My class is working on [TOPIC]. I need an extension activity for learners who finish the main task early. The activity should: (1) go deeper into the same topic rather than just adding more of the same work, (2) require higher-order thinking (analysis, evaluation, or creation), (3) be completable in 10-15 minutes without teacher assistance, and (4) be relevant and interesting for a South African teenager. Please provide full instructions for the learner."
+  },
+  {
+    "id": "support-activity",
+    "title": "Create a scaffolded version for learners who need support",
+    "category": "Differentiation",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Make the main task accessible for learners who need extra support.",
+    "prompt": "I am a [SUBJECT] teacher for [GRADE]. Here is the main task I have set for the class: [DESCRIBE OR PASTE TASK]. Please create a scaffolded version of this same task for learners who need additional support. Add: sentence starters, a word bank of key vocabulary, step-by-step instructions broken into small chunks, and visual prompts or diagrams where helpful. The learning objective should remain the same, but the task should be more accessible."
+  },
+  {
+    "id": "sa-analogy",
+    "title": "Explain a concept using a South African analogy",
+    "category": "Lesson Enhancement",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Make abstract concepts concrete using local, relevant examples.",
+    "prompt": "I am a [SUBJECT] teacher for [GRADE]. I am teaching the concept of [CONCEPT]. Please explain this concept using an analogy or example that would be familiar and relevant to South African learners. The analogy should draw on everyday South African life — food, transport, sport, cultural events, or geography. Make it engaging and easy to remember. Avoid examples that are only familiar in other countries."
+  },
+  {
+    "id": "lesson-hook",
+    "title": "Create an engaging lesson starter",
+    "category": "Lesson Enhancement",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Generate a compelling opening that hooks learners into the lesson.",
+    "prompt": "I am a [SUBJECT] teacher for [GRADE]. I am about to teach a lesson on [TOPIC]. Create three different lesson opener options. Each should: capture learner attention in the first 5 minutes, connect to something relevant to South African teenagers' lives or current events, and lead naturally into the lesson content. Options might include: a provocative question, a short surprising fact, a brief scenario, a quick prediction activity, or a short video/image discussion prompt. Indicate how long each one takes."
+  },
+  {
+    "id": "heritage-day",
+    "title": "Plan a Heritage Day activity",
+    "category": "Special Events",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Design inclusive Heritage Day activities for a diverse SA class.",
+    "prompt": "I am a teacher at a South African school. I need to plan a Heritage Day (24 September) activity for my [GRADE] class of approximately [NUMBER] learners. The class includes learners from [DESCRIBE CULTURAL BACKGROUNDS IF KNOWN, e.g. Zulu, Xhosa, Sotho, Afrikaans, Cape Malay backgrounds]. Please suggest three activities that: (1) celebrate the diversity in the class equally, (2) are practical and manageable for one teacher, (3) are appropriate for [GRADE], and (4) connect to the curriculum in at least one subject. Include a list of what I would need to prepare."
+  },
+  {
+    "id": "mandela-day",
+    "title": "Plan a Mandela Day activity (67 minutes)",
+    "category": "Special Events",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Organise meaningful 67-minute service or learning activity for Mandela Day.",
+    "prompt": "I am a teacher planning a Mandela Day (18 July) activity for my [GRADE] class. We have 67 minutes to dedicate to a meaningful activity in the spirit of Nelson Mandela's legacy. Suggest a practical 67-minute activity that: (1) is meaningful and teaches learners about Mandela's values, (2) involves learners actively (not just watching or listening), (3) is achievable within the school environment with limited resources, and (4) is age-appropriate for [GRADE]. Include a step-by-step plan for the 67 minutes."
+  },
+  {
+    "id": "cross-curricular",
+    "title": "Design a cross-curricular project",
+    "category": "Lesson Enhancement",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Create a project that spans two or more subjects.",
+    "prompt": "I am a [SUBJECT 1] and [SUBJECT 2] teacher, or I am collaborating with a colleague. Design a [DURATION: 2-week/3-week] cross-curricular project for [GRADE] learners that integrates learning from both [SUBJECT 1] and [SUBJECT 2]. The project should: have a unifying theme relevant to South African learners, include clear deliverables that assess both subjects, be achievable with limited resources, and culminate in a presentation or product that learners can be proud of. Provide a week-by-week plan."
+  },
+  {
+    "id": "story-starters",
+    "title": "Generate creative writing story starters",
+    "category": "Lesson Enhancement",
+    "subjects": ["English", "Afrikaans", "IsiZulu", "IsiXhosa"],
+    "grades": ["gr4-6", "gr7-9"],
+    "description": "Create engaging story starters set in South African contexts.",
+    "prompt": "I am a [LANGUAGE] teacher for [GRADE]. Create five creative writing story starters that would appeal to South African learners aged [AGE RANGE]. The starters should: be set in recognisable South African settings (a township, a suburb, a rural area, a beach, a sports field), feature relatable South African characters, begin in the middle of an interesting situation (in medias res), and be no longer than 3 sentences each. Avoid clichés and aim for starters that spark genuine curiosity."
+  },
+  {
+    "id": "ilo-activity",
+    "title": "Create a Life Orientation activity",
+    "category": "Lesson Planning",
+    "subjects": ["Life Orientation"],
+    "grades": ["all"],
+    "description": "Generate practical LO activities on social issues relevant to SA learners.",
+    "prompt": "I am a Life Orientation teacher for [GRADE]. Create a 45-minute lesson activity on the topic of [LO TOPIC: e.g., personal identity, career guidance, social issues, health, citizenship]. The activity should: be relevant to the lived experiences of South African learners, encourage reflection and open discussion, include a structured activity component (not just talking), and end with a brief written reflection. Include full learner instructions and teacher facilitation notes."
+  },
+  {
+    "id": "maths-activity",
+    "title": "Create a maths problem-solving activity",
+    "category": "Lesson Planning",
+    "subjects": ["Mathematics"],
+    "grades": ["all"],
+    "description": "Generate contextualised maths problems with South African settings.",
+    "prompt": "I am a Grade [GRADE] Mathematics teacher. Create a problem-solving activity on [MATHS TOPIC: e.g., percentages, linear equations, geometry] using real-world contexts from South African life. Include: 5-8 problems of increasing difficulty, at least two problems set in recognisable South African contexts (shopping, transport, sport, cooking), a mix of direct calculation and word problems, and a full memorandum. The problems should be appropriate for [GRADE] CAPS level."
+  },
+  {
+    "id": "reading-comprehension",
+    "title": "Create a reading comprehension exercise",
+    "category": "Assessment",
+    "subjects": ["English", "Afrikaans"],
+    "grades": ["gr4-6", "gr7-9", "gr10-12"],
+    "description": "Generate a passage with comprehension questions.",
+    "prompt": "I am a [LANGUAGE] teacher for [GRADE]. Create a reading comprehension exercise on the topic of [TOPIC]. Include: a passage of approximately [WORD COUNT] words appropriate for [GRADE] reading level, the passage should feature South African settings, characters, or context where relevant, 8-10 questions covering different levels of comprehension (literal, inferential, and evaluative), and a full answer key. The difficulty should match the [TERM] assessment requirements."
+  },
+  {
+    "id": "vocabulary-activity",
+    "title": "Create a vocabulary building activity",
+    "category": "Lesson Enhancement",
+    "subjects": ["English", "Afrikaans", "IsiZulu", "IsiXhosa"],
+    "grades": ["all"],
+    "description": "Build learner vocabulary with contextualised activities.",
+    "prompt": "I am a [LANGUAGE] teacher for [GRADE]. Create a vocabulary activity for the following words from our current unit: [LIST WORDS]. The activity should: contextualise the words in sentences relevant to South African learners, include at least three different task types (e.g. matching, gap-fill, use in a sentence), progress from recognition to production, and be completable in 20-25 minutes. Include an answer key."
+  },
+  {
+    "id": "science-lab",
+    "title": "Design a science investigation or practical",
+    "category": "Lesson Planning",
+    "subjects": ["Natural Sciences", "Physical Sciences", "Life Sciences"],
+    "grades": ["all"],
+    "description": "Create a structured science practical or investigation activity.",
+    "prompt": "I am a [SCIENCE SUBJECT] teacher for [GRADE]. Design a [DURATION]-minute practical investigation on the topic of [TOPIC] that aligns with the CAPS curriculum for [GRADE]. The investigation should: use materials available in a typical South African school (no expensive specialist equipment), include a clear aim, hypothesis, method, results table, and conclusion section, be safe and manageable for a class of [NUMBER] learners, and include a marking rubric. Provide full teacher and learner instructions."
+  },
+  {
+    "id": "social-sciences-source",
+    "title": "Create a source-based activity",
+    "category": "Lesson Planning",
+    "subjects": ["History", "Social Sciences"],
+    "grades": ["gr7-9", "gr10-12"],
+    "description": "Generate primary or secondary source analysis activities.",
+    "prompt": "I am a [History/Social Sciences] teacher for [GRADE]. Create a source-based activity on the topic of [TOPIC]. Include: 2-3 sources (these can be short document excerpts, image descriptions, or statistical data), source analysis questions that progress from basic comprehension to evaluation, at least one question that asks learners to compare sources or consider perspective, and a marking guideline. The sources and questions should be appropriate for [GRADE] CAPS requirements."
+  },
+  {
+    "id": "classroom-expectations",
+    "title": "Write classroom expectations or rules",
+    "category": "Communication",
+    "subjects": ["all"],
+    "grades": ["all"],
+    "description": "Create positive, clear classroom expectations to share with learners.",
+    "prompt": "I am a [GRADE] class teacher. Help me write a set of classroom expectations (not rules) that are: positive in tone (focus on what to do, not what not to do), appropriate for [GRADE] learners, connected to the values of respect, responsibility, and Ubuntu, limited to 5-7 clear statements, and suitable to display on the classroom wall. Format them in a way that is clear and easy to read for learners at this level."
+  }
+]

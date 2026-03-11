@@ -1,0 +1,521 @@
+{
+  "title": "AI as Your Teaching Assistant",
+  "subtitle": "A Guide for South African Educators",
+  "description": "Learn to use AI tools as your personal teaching assistant. Save time, create better lessons, and support every learner — at your own pace, in your own time.",
+  "totalMinutes": 350,
+  "modules": [
+    {
+      "id": "01-hello-ai",
+      "title": "Hello, AI!",
+      "subtitle": "Welcome to Your Digital Teaching Assistant",
+      "estimatedMinutes": 45,
+      "icon": "wave",
+      "color": "#007A4D",
+      "description": "Demystify AI so you feel curious rather than worried. Discover what AI can and cannot do, and meet the two tools you will use throughout this course.",
+      "lessons": [
+        {
+          "id": "01-what-is-ai",
+          "title": "What Is AI, Really?",
+          "objectives": [
+            "Define AI in plain language",
+            "Explain that AI is a tool, not a replacement for teachers",
+            "Bust three common myths about AI"
+          ],
+          "estimatedMinutes": 12,
+          "hasQuiz": true,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "02-meet-gemini",
+          "title": "Meet Gemini — Your AI Writing Partner",
+          "objectives": [
+            "Understand what Google Gemini is and what it does best",
+            "Navigate the Gemini interface confidently",
+            "Know when to use Gemini vs other tools"
+          ],
+          "estimatedMinutes": 12,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "03-meet-notebooklm",
+          "title": "Meet NotebookLM — Your AI Research Partner",
+          "objectives": [
+            "Understand what NotebookLM is and how it differs from Gemini",
+            "Upload your first document to NotebookLM",
+            "Know when to use NotebookLM vs Gemini"
+          ],
+          "estimatedMinutes": 12,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "04-you-are-the-expert",
+          "title": "AI Is a Tool — You Are Still the Expert",
+          "objectives": [
+            "Articulate the role of the teacher vs the role of AI",
+            "Feel empowered and curious about AI rather than threatened"
+          ],
+          "estimatedMinutes": 9,
+          "hasQuiz": false,
+          "hasTryItNow": false,
+          "hasReflection": true,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        }
+      ]
+    },
+    {
+      "id": "02-art-of-the-ask",
+      "title": "The Art of the Ask",
+      "subtitle": "How to Talk to AI",
+      "estimatedMinutes": 60,
+      "icon": "message-square",
+      "color": "#002395",
+      "description": "Learn the PARTS framework for writing prompts that get you exactly what you need. Master the skill that makes AI 10x more useful.",
+      "lessons": [
+        {
+          "id": "01-why-your-question-matters",
+          "title": "Why Your Question Matters",
+          "objectives": [
+            "Understand why vague prompts produce vague results",
+            "Adopt the mindset of a director giving clear instructions"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "02-persona",
+          "title": "P is for Persona",
+          "objectives": [
+            "Use the Persona element to give AI a role and communication style",
+            "Write a persona for your own subject and grade"
+          ],
+          "estimatedMinutes": 12,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": true,
+          "downloadables": []
+        },
+        {
+          "id": "03-aim",
+          "title": "A is for Aim",
+          "objectives": [
+            "State the purpose of a prompt precisely",
+            "Match the aim verb to the task type"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "04-recipients",
+          "title": "R is for Recipients",
+          "objectives": [
+            "Specify your audience in prompts to control language level",
+            "Include South African cultural context in recipient details"
+          ],
+          "estimatedMinutes": 12,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "05-theme-and-structure",
+          "title": "T + S — Theme and Structure",
+          "objectives": [
+            "Apply Theme and Structure to complete a full PARTS prompt",
+            "Build and copy a complete PARTS prompt for your own class"
+          ],
+          "estimatedMinutes": 16,
+          "hasQuiz": true,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": true,
+          "downloadables": ["parts-framework-reference.pdf"]
+        }
+      ]
+    },
+    {
+      "id": "03-save-your-sundays",
+      "title": "Save Your Sundays",
+      "subtitle": "AI for Planning and Administration",
+      "estimatedMinutes": 50,
+      "icon": "calendar",
+      "color": "#F59E0B",
+      "description": "Reclaim your evenings and weekends. Use AI to handle lesson planning, assessments, parent communication, and differentiation in a fraction of the time.",
+      "lessons": [
+        {
+          "id": "01-lesson-planning",
+          "title": "Lesson Planning with AI",
+          "objectives": [
+            "Use Gemini to draft a CAPS-aligned lesson plan structure",
+            "Know what to check and edit before using an AI-generated plan"
+          ],
+          "estimatedMinutes": 14,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": true,
+          "downloadables": []
+        },
+        {
+          "id": "02-assessments-rubrics",
+          "title": "Rubrics, Assessments, and Marking Grids",
+          "objectives": [
+            "Generate assessment rubrics and memoranda using AI",
+            "Adapt AI-generated assessments to specific CAPS requirements"
+          ],
+          "estimatedMinutes": 12,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": true,
+          "downloadables": []
+        },
+        {
+          "id": "03-parent-communication",
+          "title": "Parent and School Communication",
+          "objectives": [
+            "Draft newsletters, permission letters, and parent messages faster",
+            "Maintain a professional tone while saving time"
+          ],
+          "estimatedMinutes": 12,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": true,
+          "downloadables": []
+        },
+        {
+          "id": "04-differentiation",
+          "title": "Differentiation — Adapting Materials for Every Learner",
+          "objectives": [
+            "Use AI to quickly create multiple versions of the same material at different levels",
+            "Support learners with diverse needs using AI-assisted adaptation"
+          ],
+          "estimatedMinutes": 12,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": true,
+          "hasPromptBuilder": true,
+          "downloadables": []
+        }
+      ]
+    },
+    {
+      "id": "04-bring-lessons-alive",
+      "title": "Bring Your Lessons Alive",
+      "subtitle": "AI for Creative Teaching",
+      "estimatedMinutes": 55,
+      "icon": "lightbulb",
+      "color": "#9333EA",
+      "description": "Design more engaging and creative learning experiences. Use AI to generate compelling lesson hooks, South African analogies, and cross-curricular activities.",
+      "lessons": [
+        {
+          "id": "01-starter-activities",
+          "title": "Starter Activities and Lesson Hooks",
+          "objectives": [
+            "Generate engaging lesson openers that connect to SA learners' lives",
+            "Reduce time spent brainstorming lesson starters"
+          ],
+          "estimatedMinutes": 14,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": true,
+          "downloadables": []
+        },
+        {
+          "id": "02-analogies-storytelling",
+          "title": "Explanations, Analogies, and Storytelling",
+          "objectives": [
+            "Ask AI to explain complex concepts using local South African analogies",
+            "Use storytelling to make abstract content concrete"
+          ],
+          "estimatedMinutes": 14,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": true,
+          "downloadables": []
+        },
+        {
+          "id": "03-notebooklm-research",
+          "title": "Using NotebookLM for Subject Research",
+          "objectives": [
+            "Upload curriculum documents to NotebookLM and extract structured summaries",
+            "Create study guides and question banks from source material"
+          ],
+          "estimatedMinutes": 13,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "04-special-events",
+          "title": "Cross-Curricular and Special Event Planning",
+          "objectives": [
+            "Plan creative special events and theme days with AI assistance",
+            "Design cross-curricular projects for South African observances"
+          ],
+          "estimatedMinutes": 14,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": true,
+          "downloadables": []
+        }
+      ]
+    },
+    {
+      "id": "05-ai-in-your-pocket",
+      "title": "AI in Your Pocket",
+      "subtitle": "Mobile and Low-Connectivity Use",
+      "estimatedMinutes": 30,
+      "icon": "smartphone",
+      "color": "#0891B2",
+      "description": "Make AI work for you regardless of load shedding or data constraints. Learn mobile-first strategies and smart workarounds for the South African context.",
+      "lessons": [
+        {
+          "id": "01-mobile-devices",
+          "title": "Using AI on Mobile Devices",
+          "objectives": [
+            "Access and use Gemini on Android and iPhone",
+            "Use voice input for hands-free prompt entry"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "02-load-shedding",
+          "title": "Load Shedding Strategies",
+          "objectives": [
+            "Plan ahead for load shedding so AI tools are ready when you are",
+            "Build a bank of saved AI outputs for offline use"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "03-data-costs",
+          "title": "Data and Cost Awareness",
+          "objectives": [
+            "Understand the data costs of AI tools",
+            "Use free tiers effectively without exceeding your data budget"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": false,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        }
+      ]
+    },
+    {
+      "id": "06-trust-but-verify",
+      "title": "Trust But Verify",
+      "subtitle": "Responsible AI Use in Schools",
+      "estimatedMinutes": 50,
+      "icon": "shield",
+      "color": "#DE3831",
+      "description": "Use AI ethically and safely. Understand its limitations, protect learner privacy under POPIA, and navigate academic integrity in the AI age.",
+      "lessons": [
+        {
+          "id": "01-hallucinations",
+          "title": "Hallucinations — When AI Makes Things Up",
+          "objectives": [
+            "Define AI hallucination in plain language",
+            "Identify when AI output needs to be fact-checked",
+            "Apply the verify-before-use rule"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": true,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "02-bias-in-ai",
+          "title": "Bias in AI",
+          "objectives": [
+            "Explain how AI can reflect societal biases",
+            "Recognise bias in AI outputs using a critical lens",
+            "Apply this awareness to South African classroom content"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "03-privacy-popia",
+          "title": "Privacy and Data Safety — POPIA for Educators",
+          "objectives": [
+            "Understand what must never be shared with AI tools",
+            "Comply with POPIA when using AI in a school context",
+            "Protect learner and school data effectively"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": true,
+          "hasTryItNow": false,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "04-academic-integrity",
+          "title": "Academic Integrity — AI and Your Learners",
+          "objectives": [
+            "Develop a classroom AI policy",
+            "Redesign assignments so AI use becomes part of learning",
+            "Teach learners to use AI responsibly"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": true,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "05-responsibility-checklist",
+          "title": "The Responsibility Checklist",
+          "objectives": [
+            "Apply a five-point responsibility check before using AI-generated content in class",
+            "Download and use the responsibility checklist as an ongoing reference"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": ["responsibility-checklist.pdf"]
+        }
+      ]
+    },
+    {
+      "id": "07-prompt-toolkit",
+      "title": "Your Prompt Toolkit",
+      "subtitle": "Reference and Practice Hub",
+      "estimatedMinutes": 20,
+      "icon": "toolbox",
+      "color": "#16A34A",
+      "description": "Your permanent reference library. Browse 50+ South African educator prompts, search the full AI glossary, and download quick reference cards to keep nearby.",
+      "lessons": [
+        {
+          "id": "01-prompt-library",
+          "title": "The SA Educator Prompt Library",
+          "objectives": [
+            "Access and use the categorised prompt library",
+            "Customise prompts for your own subject and grade"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": true,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": ["prompt-library-printable.pdf"]
+        },
+        {
+          "id": "02-glossary",
+          "title": "The AI Glossary",
+          "objectives": [
+            "Look up unfamiliar AI terms in plain, teacher-friendly language",
+            "Explain key AI concepts to colleagues"
+          ],
+          "estimatedMinutes": 5,
+          "hasQuiz": false,
+          "hasTryItNow": false,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "03-parts-reference",
+          "title": "PARTS Framework Quick Reference",
+          "objectives": [
+            "Use the PARTS framework as a quick reference without re-reading the full module"
+          ],
+          "estimatedMinutes": 5,
+          "hasQuiz": false,
+          "hasTryItNow": false,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": ["parts-framework-reference.pdf"]
+        }
+      ]
+    },
+    {
+      "id": "08-you-did-it",
+      "title": "You Did It!",
+      "subtitle": "Certification and Next Steps",
+      "estimatedMinutes": 20,
+      "icon": "award",
+      "color": "#F59E0B",
+      "description": "Celebrate your achievement, reflect on your learning journey, and download your certificate of completion.",
+      "lessons": [
+        {
+          "id": "01-final-reflection",
+          "title": "Your Learning Journey",
+          "objectives": [
+            "Consolidate learning across all modules",
+            "Identify two AI habits to build into your weekly practice"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": false,
+          "hasReflection": true,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        },
+        {
+          "id": "02-certificate",
+          "title": "Certificate of Completion",
+          "objectives": [
+            "Generate and download your personalised certificate of completion"
+          ],
+          "estimatedMinutes": 10,
+          "hasQuiz": false,
+          "hasTryItNow": false,
+          "hasReflection": false,
+          "hasPromptBuilder": false,
+          "downloadables": []
+        }
+      ]
+    }
+  ]
+}
