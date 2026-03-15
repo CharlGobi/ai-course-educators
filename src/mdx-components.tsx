@@ -11,6 +11,7 @@ import { ComparisonTable } from "@/components/content/ComparisonTable";
 import { WorkflowSteps } from "@/components/content/WorkflowSteps";
 import { VerbGrid } from "@/components/content/VerbGrid";
 import { PARTSBreakdown } from "@/components/content/PARTSBreakdown";
+import { DifferentiationLevels } from "@/components/content/DifferentiationLevels";
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
@@ -70,6 +71,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     WorkflowSteps,
     VerbGrid,
     PARTSBreakdown,
+    DifferentiationLevels,
 
     ...components,
   };
