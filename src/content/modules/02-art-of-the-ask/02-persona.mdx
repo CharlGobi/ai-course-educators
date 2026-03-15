@@ -39,17 +39,37 @@ Without a Persona, Gemini assumes a generic audience — usually an internationa
 
 With a strong Persona, you anchor Gemini to your reality.
 
-<SAExample title="Persona in action">
-**Without Persona:**
-"Create a lesson plan on ecosystems."
+<ComparisonTable
+  title="Persona in action"
+  leftHeading="Without Persona"
+  rightHeading="With Persona"
+  leftIcon="😐"
+  rightIcon="🎯"
+  rows={[
+    {
+      left: "Prompt: \"Create a lesson plan on ecosystems.\"",
+      right: "Prompt: \"I am a Grade 7 Natural Sciences teacher in the Northern Cape. My learners speak Afrikaans and Tswana at home.\""
+    },
+    {
+      left: "AI uses US-style curriculum language and American national park examples",
+      right: "AI uses Karoo ecosystem examples and accessible, multilingual-friendly English"
+    },
+    {
+      left: "References \"students\", \"Common Core\", and foreign cultural contexts",
+      right: "References \"learners\", CAPS curriculum, and local South African context"
+    },
+    {
+      left: "Generic activities that assume internet access and home resources",
+      right: "Activities suited to your actual class — realistic and usable"
+    }
+  ]}
+/>
 
-*AI produces:* A generic 50-minute lesson plan using US-style curriculum language, with examples from temperate forests and American national parks.
-
-**With Persona:**
-"I am a Grade 7 Natural Sciences teacher at a public school in the Northern Cape. My learners are 12-13 years old and mostly speak Afrikaans and Tswana at home."
-
-*AI produces:* A lesson plan with examples from Karoo ecosystems, terminology in accessible English, and activities suitable for multilingual South African learners.
-</SAExample>
+<LessonImage
+  src="/images/modules/02-art-of-the-ask/persona-anchor.png"
+  alt="A South African teacher surrounded by local context — CAPS curriculum, SA flag, diverse learners — anchoring AI to her classroom reality"
+  caption="Your Persona anchors Gemini to your world. Without it, AI defaults to a generic international teacher with no connection to your classroom."
+/>
 
 <PromptBox
   builder={true}

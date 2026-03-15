@@ -9,6 +9,8 @@ import { KeyPoint } from "@/components/content/KeyPoint";
 import { LessonImage } from "@/components/content/LessonImage";
 import { ComparisonTable } from "@/components/content/ComparisonTable";
 import { WorkflowSteps } from "@/components/content/WorkflowSteps";
+import { VerbGrid } from "@/components/content/VerbGrid";
+import { PARTSBreakdown } from "@/components/content/PARTSBreakdown";
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
@@ -66,6 +68,8 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     LessonImage,
     ComparisonTable,
     WorkflowSteps,
+    VerbGrid,
+    PARTSBreakdown,
 
     ...components,
   };
