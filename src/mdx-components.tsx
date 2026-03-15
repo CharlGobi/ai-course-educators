@@ -6,6 +6,9 @@ import { ReflectionInput } from "@/components/interactive/ReflectionInput";
 import { Checklist } from "@/components/interactive/Checklist";
 import { SAExample } from "@/components/content/SAExample";
 import { KeyPoint } from "@/components/content/KeyPoint";
+import { LessonImage } from "@/components/content/LessonImage";
+import { ComparisonTable } from "@/components/content/ComparisonTable";
+import { WorkflowSteps } from "@/components/content/WorkflowSteps";
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
@@ -60,6 +63,9 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     Checklist,
     SAExample,
     KeyPoint,
+    LessonImage,
+    ComparisonTable,
+    WorkflowSteps,
 
     ...components,
   };

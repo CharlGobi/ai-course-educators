@@ -25,11 +25,20 @@ You can upload your CAPS documents, textbook chapters, past exam papers, or your
 
 Everything NotebookLM tells you is **grounded in your documents**. It will not hallucinate information that is not in your sources. This makes it far more reliable for curriculum-specific work than general Gemini.
 
-<KeyPoint title="Gemini vs NotebookLM" variant="info">
-**Use Gemini when:** you want to create something new — a lesson plan, an activity, a newsletter, a quiz. It uses its broad knowledge.
-
-**Use NotebookLM when:** you want to work with specific documents you already have — summarising, questioning, and generating content based only on those sources.
-</KeyPoint>
+<ComparisonTable
+  title="Which tool should I use?"
+  leftHeading="Use Gemini when..."
+  rightHeading="Use NotebookLM when..."
+  leftIcon="🔷"
+  rightIcon="📄"
+  rows={[
+    { left: "Writing a new lesson plan from scratch", right: "Extracting topics from a CAPS document you uploaded" },
+    { left: "Creating a worksheet or activity", right: "Generating questions from a textbook chapter" },
+    { left: "Drafting a parent newsletter", right: "Building a study guide from your own lesson notes" },
+    { left: "Explaining a concept in simpler language", right: "Finding all content on a specific topic in a past paper" },
+    { left: "Brainstorming ideas for Heritage Day", right: "Getting cited answers grounded in a specific document" },
+  ]}
+/>
 
 ---
 
@@ -37,19 +46,23 @@ Everything NotebookLM tells you is **grounded in your documents**. It will not h
 
 Using NotebookLM takes three steps:
 
-**Step 1: Create a new notebook**
-When you open NotebookLM, you will see a button to create a new notebook. Each notebook is a separate workspace. You might have one notebook for each grade or subject you teach.
-
-**Step 2: Upload your sources**
-You can add:
-- PDF files (like CAPS documents, textbook chapters, past papers)
-- Google Docs
-- Text you paste in directly
-- YouTube videos (by pasting the URL)
-- Website URLs
-
-**Step 3: Ask questions in the chat**
-Once your sources are uploaded, type your question in the chat on the right side. NotebookLM will answer based only on your documents, and will show you **citations** — references to the exact part of your document where the information comes from.
+<WorkflowSteps
+  title="The NotebookLM process"
+  steps={[
+    {
+      title: "Create a notebook",
+      description: "Open notebooklm.google.com and click 'New notebook'. Each notebook is a separate workspace — create one per subject or grade."
+    },
+    {
+      title: "Upload your sources",
+      description: "Add PDF files, Google Docs, text, YouTube links, or website URLs. NotebookLM will only use what you upload."
+    },
+    {
+      title: "Ask questions in chat",
+      description: "Type your question in the chat. Answers come with citations showing exactly which part of your document was used."
+    }
+  ]}
+/>
 
 ---
 
